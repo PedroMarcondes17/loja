@@ -1,0 +1,85 @@
+body{
+    background-image: url(fundo.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: "Roboto"
+}
+
+#title{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 7%;
+    margin-top: 5%;
+}
+
+#principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.product-card {
+    margin: 0.2%;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.product-card img{
+    border-radius:30px;
+}
+
+.compra{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#botao{
+    background-color: white;
+    border-radius: 30px;
+    width: 16%;
+    text-align: center;
+    font-size: 30px;
+}
+#botaocompra{
+    background-color: white;
+    border-radius: 30px;
+    width: 16%;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 6px;
+}
+.qtd{
+    background-color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#descricao{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    line-height: 220%;
+    font-size: 160%;
+    margin-bottom: 7%;
+}
+
+#quantidades{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 39%;
+}
+
+#rodape{
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+}

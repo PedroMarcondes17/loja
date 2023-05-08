@@ -1,0 +1,51 @@
+body{
+    background-image: url(fundo.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: "Roboto"
+}
+
+#title{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 7%;
+    margin-top: 5%;
+}
+
+#intro{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    line-height: 130%;
+    font-size: 160%;
+    margin-bottom: 7%;
+}
+
+
+
+#principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-card {
+    margin: 0.2%;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    //outline: black 5px solid
+}
+
+.product-card img{
+    border-radius:30px;
+}
+
+.product-card .desc {
+    padding: 0 10px 0 10px;
+
+}
+
+
+
+
+
