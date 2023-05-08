@@ -1,7 +1,5 @@
 body{
-    background-image: url(fundo.jpg);
-    background-repeat: repeat;
-    background-size: cover;
+    background: linear-gradient(#7731E1, #e3aecc);
     font-family: "Roboto"
 }
 
